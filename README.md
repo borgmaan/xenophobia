@@ -1,7 +1,7 @@
 # Xenophobia
 
 ### Project Description
-Urgent *grant related* analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin implementing the *SCM related practices* I've been talking so much about.
+Urgent **grant related** analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin implementing the *SCM related practices* I've been talking so much about.
 
 ### Goals
 Deliver quality analysis and illustrate ease of use and overall usefulness of git SCM for code/project management.   
@@ -12,7 +12,6 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 ### GitHub/Git Integration
 
 #### My Thoughts
-
 * We could totally use git for project management 
 * Encourage good coding habits
 	* Would totally eliminate multiple file versions
@@ -41,6 +40,19 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 * That is just 5 hashtag markups on a tab-delimeted text line
 * Parsing this is just as easy as the system we have set up right now
 	* I'll write it
+
+
+##### PLUS, IT GIVES US THE SHARED CODE REPOSITORY!!!
+* Share code with each other and everyone around the Institute 
+* Could just get a GitHub Enterprise account
+	* Do we qualify for this: https://github.com/edu ?????
+	* These are kind of pricey
+* Should probably just host it on the Xu Cluster or some other box we have laying around.
+* Just would need set up and config
+	* Calling all sys admins
+
+
+
 
 
 ### Analysis approach
