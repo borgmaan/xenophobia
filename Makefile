@@ -1,0 +1,12 @@
+# Andrew Borgman
+# VARI BBC 
+# 8/28/2013
+# Builds report for project
+
+all: report/crc-tumor-analysis.pdf images/treatment_images/CRC02_AZD8055_+_PD0325901_vs_Vechicle.pdf images/treatment_images/CRC02_AZD8055_alone_vs_Vechicle.pdf images/treatment_images/CRC02_BEZ235_+_PD0325901_vs_Vechicle.pdf images/treatment_images/CRC02_BEZ235_alone_vs_Vechicle.pdf images/treatment_images/CRC02_PD0325901_alone_vs_Vechicle.pdf images/treatment_images/CRC18_AZD8055_+_PD0325901_vs_Vechicle.pdf images/treatment_images/CRC18_AZD8055_alone_vs_Vechicle.pdf images/treatment_images/CRC18_BEZ235_+_PD0325901_vs_Vechicle.pdf images/treatment_images/CRC18_BEZ235_alone_vs_Vechicle.pdf images/treatment_images/CRC18_PD0325901_alone_vs_Vechicle.pdf images/treatment_images/JPM09_AZD8055_+_PD0325901_vs_Vechicle.pdf images/treatment_images/JPM09_AZD8055_alone_vs_Vechicle.pdf images/treatment_images/JPM09_BEZ235_+_PD0325901_vs_Vechicle.pdf images/treatment_images/JPM09_BEZ235_alone_vs_Vechicle.pdf images/treatment_images/JPM09_PD0325901_alone_vs_Vechicle.pdf images/treatment_images/JPM12_AZD8055_+_PD0325901_vs_Vechicle.pdf images/treatment_images/JPM12_AZD8055_alone_vs_Vechicle.pdf images/treatment_images/JPM12_BEZ235_+_PD0325901_vs_Vechicle.pdf images/treatment_images/JPM12_BEZ235_alone_vs_Vechicle.pdf images/treatment_images/JPM12_PD0325901_alone_vs_Vechicle.pdf images/treatment_images/JPM16_AZD8055_+_PD0325901_vs_Vechicle.pdf images/treatment_images/JPM16_AZD8055_alone_vs_Vechicle.pdf images/treatment_images/JPM16_BEZ235_+_PD0325901_vs_Vechicle.pdf images/treatment_images/JPM16_BEZ235_alone_vs_Vechicle.pdf images/treatment_images/JPM16_PD0325901_alone_vs_Vechicle.pdf
+
+report/crc-tumor-analysis.pdf:report/crc-tumor-analysis.tex report/JPM16.tex crc-tumor-analysis.tex
+	pdflatex report/crc-tumor-analysis.tex
+
+report/JPM16.tex:src/xeno-catter.R
+	Rscript --vanilla src/xeno-catter.R

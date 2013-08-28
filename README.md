@@ -18,6 +18,11 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 ##### We should totally use git for project management
 
 #### Why we should do it
+* http://kbroman.wordpress.com/2013/08/20/electronic-lab-notebook/
+	* This one really applies for our day-to-day work
+* http://www.scfbm.org/content/pdf/1751-0473-8-7.pdf
+* http://ivory.idyll.org/blog/proselytizing-version-control.html
+* http://ivory.idyll.org/blog/research-software-reuse.html
 * Encourage good coding habits
 	* There a reason software development projects use version control
 	* Would totally eliminate multiple file versions
@@ -48,6 +53,7 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 		* Use LyX for a MS Word substitute for report creation
 		* Export LaTeX source from LyX file
 		* Create Makefile that runs your R code, creates your figures, then compiles your report using pdflatex or something like that 
+		* http://kbroman.github.io/minimal_make/ :: Like this!
 
 ##### PLUS, IT GIVES US THE SHARED CODE REPOSITORY!!!
 * Share code with each other and everyone around VARI
