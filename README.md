@@ -15,7 +15,7 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 ### GitHub/Git Integration
 
 #### What do I propose?
-**We should totally use git for project management **
+##### We should totally use git for project management
 
 #### Why we should do it
 * Encourage good coding habits
@@ -34,18 +34,12 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 	* Clone down code when you work on a project
 		* I would also advocate for formally separting our data and our code 
 	* Easily adaptable to our current directory structure
-			/Base directory
-				GVW/			<- These are the repos
-					GVW_01/ 
-				JM/
-					JM_01
-				BN/
+		* Each project is a repo
 	* Could keep data in repos 
 		* This allows for audit-like tracking of an experiments data over the course of the analysis
 * For time tracking, why not merge our timesheets and our notebooks. 
 	* Work entries would just get a special markdown flag and look like this:
-	##### 8/28/2013	12:00-2:48 AM	2.75	GitHub Party
-	* That is just 5 hashtag markups on a tab-delimeted text line
+	* ##### 8/28/2013	12:00-2:48 AM	2.75	GitHub Party
 	* Parsing this is just as easy as the system we have set up right now
 		* I'll write it ;)
 * Gives us the chance to do **reproducible** research
