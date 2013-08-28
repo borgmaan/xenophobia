@@ -50,10 +50,8 @@ Mouse data files can be found in the data/ directory. Treatment X Model group ha
 * Should probably just host it on the Xu Cluster or some other box we have laying around.
 * Just would need set up and config
 	* Calling all sys admins
-
-
-
-
+#### Or, do we just hop on the free software bandwagon
+* Shouldn't everyone benefit from what we'rez doing?z
 
 ### Analysis approach
 * All analyses were performed using the methods described in [Laajala et. al.](http://clincancerres.aacrjournals.org/content/early/2012/07/19/1078-0432.CCR-11-3215.full.pdf).
