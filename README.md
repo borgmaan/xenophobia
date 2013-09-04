@@ -97,7 +97,7 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 	* Shouldn't everyone benefit from what we're doing?
 
 ## Case Study Notebook
-Below is an example of how I put my project notebook into a fully parseable 
+Below is an example of how I morphed my project notebook into a fully parsable time tracking analysis log.
 
 ### Analysis approach
 * All analyses were performed using the methods described in [Laajala et. al.](http://clincancerres.aacrjournals.org/content/early/2012/07/19/1078-0432.CCR-11-3215.full.pdf).
