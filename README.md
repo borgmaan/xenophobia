@@ -16,8 +16,7 @@ Urgent **grant related** analysis request from MacKeigan Lab for a bunch of xeno
 ### Goals
 Deliver quality analysis and illustrate ease of use and usefulness of git for code/project management.   
 
-### Data Description
-Xenograft growth data files can be found in the ./data/ directory. Each treatment X Model group has it's own file -- giving 30 data files in total. I ripped these out of a multi-sheet Excel file that was output from GraphPad :/
+## JC Material
 
 ### What do I propose?
 **We should totally use git for project management**
@@ -98,6 +97,9 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 
 ## Case Study Notebook
 Below is an example of how I morphed my project notebook into a fully parsable time tracking analysis log.
+
+### Data Description
+Xenograft growth data files can be found in the ./data/ directory. Each treatment X Model group has it's own file -- giving 30 data files in total. I ripped these out of a multi-sheet Excel file that was output from GraphPad :/
 
 ### Analysis approach
 * All analyses were performed using the methods described in [Laajala et. al.](http://clincancerres.aacrjournals.org/content/early/2012/07/19/1078-0432.CCR-11-3215.full.pdf).
