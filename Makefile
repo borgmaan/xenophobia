@@ -9,7 +9,7 @@ report/crc-tumor-analysis.pdf:report/crc-tumor-analysis.tex report/tables/JPM16.
 
 # This runs the XenoCat script that outputs a bunch of files and tables for a report.
 report/tables/JPM16.tex:src/xeno-catter.R
-	Rscript --vanilla src/xeno-catter.R
+	mkdir report/tables/; mkdir report/images/; Rscript --vanilla src/xeno-catter.R
 
 # Clear out all the report stuff the right way
 clean:
