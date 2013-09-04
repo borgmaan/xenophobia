@@ -8,6 +8,7 @@
 
 ### Name Description
 Naming this demo 'Xenophobia' because it is about xenograft model analysis, and because we are irrationally afraid of version control systems.
+> [xenophobia](http://en.wikipedia.org/wiki/Xenophobia#Definitions): unreasonable fear or hatred of the unfamiliar (Webster's)
 
 ### Project Description
 Urgent **grant related** analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin leveraging git for my own research work.
