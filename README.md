@@ -11,10 +11,10 @@ Naming this demo *Xenophobia* because it is about xenograft model analysis, and 
 > [xenophobia](http://en.wikipedia.org/wiki/Xenophobia#Definitions): unreasonable fear or hatred of the unfamiliar (Webster's)
 
 ### Project Description
-Urgent **grant related** analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin leveraging git for my own research work.
+Urgent grant related analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin leveraging git for my own research work.
 
 ### Goals
-Deliver quality analysis and illustrate ease of use and usefulness of git for code/project management.   
+Deliver quality analysis and illustrate ease of use and usefulness of git for code/project management. 
 
 ## JC Material
 
