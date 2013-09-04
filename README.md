@@ -4,7 +4,7 @@
 * [I actually found this paper last, but you should read it first.](http://www.scfbm.org/content/pdf/1751-0473-8-7.pdf)
 * [I am a really big Karl Broman fan.](http://kbroman.wordpress.com/2013/08/20/electronic-lab-notebook/)
 * [I also like C Titus Brown.](http://ivory.idyll.org/blog/proselytizing-version-control.html)
-* [Continued.](http://ivory.idyll.org/blog/research-software-reuse.html)
+* [Most of these thoughts I stole from them because I think they are on to something.](http://ivory.idyll.org/blog/research-software-reuse.html)
 
 ### Name Description
 Naming this demo *Xenophobia* because it is about xenograft model analysis, and because we are irrationally afraid of version control systems.
