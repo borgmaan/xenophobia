@@ -19,7 +19,7 @@ Deliver quality analysis and illustrate ease of use and usefulness of git for co
 ### Data Description
 Xenograft growth data files can be found in the ./data/ directory. Each treatment X Model group has it's own file -- giving 30 data files in total. I ripped these out of a multi-sheet Excel file that was output from GraphPad :/
 
-#### What do I propose?
+### What do I propose?
 **We should totally use git for project management**
 
 ### Why we should do it
@@ -96,6 +96,9 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 		* Should try to give back
 	* Shouldn't everyone benefit from what we're doing?
 
+## Case Study Notebook
+Below is an example of how I put my project notebook into a fully parseable 
+
 ### Analysis approach
 * All analyses were performed using the methods described in [Laajala et. al.](http://clincancerres.aacrjournals.org/content/early/2012/07/19/1078-0432.CCR-11-3215.full.pdf).
 * Per Treatment X Model MCMC p-values were reported for fixed effect of treatment
@@ -106,8 +109,6 @@ Jeff was happy:
 > Andrew,
 > This is great. I thank you for the fast turnaround and also the p-values and additional insights. Very helpful for sure. Certainly the PD alone was impressive in all but one or two models. 
 > Jeff
-
-### Case Study Notebook
 
 ##### 8/28/2013	8:00-11:00 PM	GitHub Party (2.0)
 0. Made LyX report structure more portable by moving table and image directories into report subdir
