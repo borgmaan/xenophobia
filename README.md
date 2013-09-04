@@ -128,7 +128,7 @@ Jeff was happy:
 4. Discussed with her as to what might be the best graphical representation of the data. 
 **Next steps: Wait to hear if they want to you do anything else. Wait to hear from Jeff.**
 
-####	8/27/2013	6:00-10:30 PM	Analysis of the XenoCats
+#####	8/27/2013	6:00-10:30 PM	Analysis of the XenoCats
 0. Got data tumor growth data from Dani.
 1. Ripped it out of Excel and put it in model X treatment specific files
 2. Wrote R code to read in data and merge it all together. 
