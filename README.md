@@ -2,21 +2,21 @@
 
 ### Reading List
 * [I actually found this paper last, but you should read it first.](http://www.scfbm.org/content/pdf/1751-0473-8-7.pdf)
-* [I am a relly big Karl Broman fan.](http://kbroman.wordpress.com/2013/08/20/electronic-lab-notebook/)
-* [I also really like C Titus Brown.](http://ivory.idyll.org/blog/proselytizing-version-control.html)
+* [I am a really big Karl Broman fan.](http://kbroman.wordpress.com/2013/08/20/electronic-lab-notebook/)
+* [I also like C Titus Brown.](http://ivory.idyll.org/blog/proselytizing-version-control.html)
 * [Continued.](http://ivory.idyll.org/blog/research-software-reuse.html)
 
 ### Name Description
-Naming this demo 'Xenophobia' because it is about xenograft model analysis, and because we are irrationally afraid of SCM.
+Naming this demo 'Xenophobia' because it is about xenograft model analysis, and because we are irrationally afraid of version control systems.
 
 ### Project Description
-Urgent **grant related** analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin implementing the *SCM related practices* I've been talking so much about.
+Urgent **grant related** analysis request from MacKeigan Lab for a bunch of xenograft experiments. Experiments performed in 5 mouse models with 6 treatment tracks in each model. I figured this would be a good example of a project to begin leveraging git for my own research work.
 
 ### Goals
-Deliver quality analysis and illustrate ease of use and overall usefulness of git SCM for code/project management.   
+Deliver quality analysis and illustrate ease of use and usefulness of git for code/project management.   
 
 ### Data Description
-Xenograft growth data files can be found in the ./data/ directory. Each treatment X Model group has it's own file -- giving 30 data files in total. 
+Xenograft growth data files can be found in the ./data/ directory. Each treatment X Model group has it's own file -- giving 30 data files in total. I ripped these out of a multi-sheet Excel file that was output from GraphPad :/
 
 ### GitHub/Git Integration
 
@@ -73,6 +73,7 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 | ------------- | ------------- |
 | Row1 Cell1    | Row1 Cell2    |
 | Row2 Cell1    | Row2 Cell2    |
+	* Well, if we used [pandoc](http://johnmacfarlane.net/pandoc/) they would be there :)
 
 ##### PLUS, IT GIVES US THE SHARED CODE REPOSITORY!!!
 * Share code with each other and everyone around VARI
@@ -81,6 +82,7 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 	* Allows us to identify which pieces of code we use most.
 	* Optimize these? I'm reaching here... 
 ***Could also just make everything public**
+	* Use GitHub
 	* Give back to the research community
 	* Could pay for a GitHub plan that allows us to have some private repos (for special [secret] projects)
 	* Make almost all our code freely available
@@ -89,13 +91,15 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 	* We're standing on the shoulders of giants
 		* Would be nowhere without Bioconductor
 		* Should try to give back
-* Shouldn't everyone benefit from what we're doing?
+	* Shouldn't everyone benefit from what we're doing?
 
 ### Analysis approach
 * All analyses were performed using the methods described in [Laajala et. al.](http://clincancerres.aacrjournals.org/content/early/2012/07/19/1078-0432.CCR-11-3215.full.pdf).
 * Per Treatment X Model MCMC p-values were reported for fixed effect of treatment
 * Graphs of the individual treatment comparisons are reported to examine what kinds of experimental outcomes are considered significant by XenoCat.
-* Jeff was happy:
+
+### Results
+Jeff was happy:
 > Andrew,
 > This is great. I thank you for the fast turnaround and also the p-values and additional insights. Very helpful for sure. Certainly the PD alone was impressive in all but one or two models. 
 > Jeff
