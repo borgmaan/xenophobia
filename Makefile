@@ -11,7 +11,7 @@ report/crc-tumor-analysis.pdf:report/crc-tumor-analysis.tex report/tables/JPM16.
 report/tables/JPM16.tex:src/xeno-catter.R
 	Rscript --vanilla src/xeno-catter.R
 
-# Clear out all the report stuff
+# Clear out all the report stuff the right way
 clean:
 	rm report/tables/*.tex
 	rm report/images/*.pdf
