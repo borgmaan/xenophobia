@@ -68,14 +68,6 @@ Deliver quality analysis and illustrate ease of use and usefulness of git for co
 	* Parsing this is just as easy as the system we have set up right now
 		* I'll write it ;)
 * Markdown has all the formatting options we could ever want and they are super easy to pick up
-* You can even embed images:  
-![](CRC02_AZD8055_alone_vs_Vechicle.pdf?raw=true)
-* Tables too!  
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Row1 Cell1    | Row1 Cell2    |
-| Row2 Cell1    | Row2 Cell2    |
-* Well, if we used [pandoc](http://johnmacfarlane.net/pandoc/) they would be there :)
 
 #### Gives us the shared code repository
 * Share code with each other and everyone around VARI
@@ -83,17 +75,18 @@ Deliver quality analysis and illustrate ease of use and usefulness of git for co
 	* Then you could fork it, yo :)
 	* Allows us to identify which pieces of code we use most.
 	* Optimize these? I'm reaching here...   
-***Could also just make everything public**
-	* Use GitHub
-	* Give back to the research community
-	* Could pay for a GitHub plan that allows us to have some private repos (for special [secret] projects)
-	* Make almost all our code freely available
-		* All the cool kids are doing it
-		* VARI probably won't like this
-	* We're standing on the shoulders of giants
-		* Would be nowhere without Bioconductor
-		* Should try to give back
-	* Shouldn't everyone benefit from what we're doing?
+
+#### Could also just make everything public
+* Use GitHub
+* Give back to the research community
+* Could pay for a GitHub plan that allows us to have some private repos (for special [secret] projects)
+* Make almost all our code freely available
+	* All the cool kids are doing it
+	* VARI probably won't like this
+* We're standing on the shoulders of giants
+	* Would be nowhere without Bioconductor
+	* Should try to give back
+* Shouldn't everyone benefit from what we're doing?
 
 ## Case Study Notebook
 Below is an example of how I morphed my project notebook into a fully parsable time tracking analysis log.
@@ -112,7 +105,7 @@ Jeff was happy:
 > This is great. I thank you for the fast turnaround and also the p-values and additional insights. Very helpful for sure. Certainly the PD alone was impressive in all but one or two models. 
 > Jeff
 
-##### 8/28/2013	8:00-11:00 PM	GitHub Party (2.0)
+##### 8/28/2013	8:00-11:00 PM	3	GitHub Party (2.0)
 0. Made LyX report structure more portable by moving table and image directories into report subdir
 	* Updated TeX files and R code to support conversion. 
 1. Re-ran to make sure everything worked... it did!
