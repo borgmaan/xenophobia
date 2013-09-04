@@ -102,7 +102,7 @@ Jeff was happy:
 > This is great. I thank you for the fast turnaround and also the p-values and additional insights. Very helpful for sure. Certainly the PD alone was impressive in all but one or two models. 
 > Jeff
 
-##### 8/28/2013	20:00-24:00	4	GitHub Party (2.0)
+##### 9/01/2013	20:00-24:00	4	GitHub Party (2.0)
 0. Made LyX report structure more portable by moving table and image directories into report subdir
 	* Updated TeX files and R code to support conversion. 
 1. Re-ran to make sure everything worked... it did!
