@@ -379,7 +379,7 @@ filename "JPM16.tex"
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename images/JPM16_AZD8055_+_PD0325901_vs_Vechicle.pdf
+	filename /Users/borgmaan/JM_10_CRC/images/treatment_images/JPM16_AZD8055_+_PD0325901_vs_Vechicle.pdf
 	scale 50
 
 \end_inset
@@ -391,7 +391,7 @@ filename "JPM16.tex"
 
 
 \begin_inset Graphics
-	filename images/JPM16_AZD8055_alone_vs_Vechicle.pdf
+	filename /Users/borgmaan/JM_10_CRC/images/treatment_images/JPM16_AZD8055_alone_vs_Vechicle.pdf
 	scale 50
 
 \end_inset
@@ -402,7 +402,7 @@ filename "JPM16.tex"
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename images/JPM16_BEZ235_+_PD0325901_vs_Vechicle.pdf
+	filename /Users/borgmaan/JM_10_CRC/images/treatment_images/JPM16_BEZ235_+_PD0325901_vs_Vechicle.pdf
 	scale 50
 
 \end_inset
@@ -414,7 +414,7 @@ filename "JPM16.tex"
 
 
 \begin_inset Graphics
-	filename images/JPM16_BEZ235_alone_vs_Vechicle.pdf
+	filename /Users/borgmaan/JM_10_CRC/images/treatment_images/JPM16_BEZ235_alone_vs_Vechicle.pdf
 	scale 50
 
 \end_inset
@@ -425,7 +425,7 @@ filename "JPM16.tex"
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename images/JPM16_PD0325901_alone_vs_Vechicle.pdf
+	filename /Users/borgmaan/JM_10_CRC/images/treatment_images/JPM16_PD0325901_alone_vs_Vechicle.pdf
 	scale 50
 
 \end_inset

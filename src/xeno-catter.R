@@ -15,10 +15,11 @@ library(xtable)
 #==================================================================#
 
 # DIRS
-.home_dir = "~/JM_10_CRC/"
+.home_dir = "~/Dropbox/bioinfo_core_work/xenophobia/"
 .data_dir = str_c(.home_dir, "data/")
-.image_dir = str_c(.home_dir, "images/")
 .report_dir = str_c(.home_dir, "report/")
+.image_dir = str_c(.report_dir, "images/")
+.table_dir = str_c(.report_dir, "tables/")
 setwd(.home_dir)
 
 
@@ -114,7 +115,7 @@ run_xeno = function(xeno_frame, treatment_name="", mn=""){
   p_val = p_vals['Treatment', 'MCMCpvals']
     
   # Make a pic of the tumor curves so you can see what is significant
-  outfile_name = str_c(.image_dir, "treatment_images/", mn, "_", str_replace_all(string=comparison_name, pattern=" ", replacement="_"), ".pdf")
+  outfile_name = str_c(.image_dir, mn, "_", str_replace_all(string=comparison_name, pattern=" ", replacement="_"), ".pdf")
   pdf(file=outfile_name, height=5, width=5)
   xeno.draw.data(xeno_frame, maintitle=comparison_name)
   dev.off()
@@ -138,7 +139,7 @@ analyze_model = function(model_frame){
   # Figure out all the treatments we have and create results df
   treatments = unique(treated_dat$Treatment)
   model_results = data.frame(matrix(NA, ncol=3, nrow=length(treatments)))
-  names(model_results) = c("Model", "Comparison", "MCMC P-Value", "Permutation P-Value")
+  names(model_results) = c("Model", "Comparison", "MCMC P-Value")
   
   # Loop through treatments and run XenoCat analysis
   ctr = 1
@@ -172,7 +173,7 @@ for (mouse_model in models){
 }
 
 for (mouse_model in models){  
-  print(xtable(mod_results[[mouse_model]]), include.rownames=FALSE, file=str_c(.report_dir, mouse_model, ".tex"))  
+  print(xtable(mod_results[[mouse_model]]), include.rownames=FALSE, file=str_c(.table_dir, mouse_model, ".tex"))  
 }
 
 sessionInfo()
