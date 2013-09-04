@@ -19,39 +19,37 @@ Deliver quality analysis and illustrate ease of use and usefulness of git for co
 ### Data Description
 Xenograft growth data files can be found in the ./data/ directory. Each treatment X Model group has it's own file -- giving 30 data files in total. I ripped these out of a multi-sheet Excel file that was output from GraphPad :/
 
-### GitHub/Git Integration
-
 #### What do I propose?
 **We should totally use git for project management**
 
-#### Why we should do it
-* Gives us the chance to do **reproducible** research
-	* Physically documents project lifecycle
-		* Commit @ logical stopping points to show project development
-	* Ensures accountability to clients
-		* Can create the project report/results with just code and data 
-		* No more (I swear this was significant when I got the p-value on my machine...)
-	* Can follow my structure
-		* Use R to create all images and tables (TeX) directly from your data 
-		* Use LyX for a MS Word substitute for report creation
-		* Export LaTeX source from LyX file
-		* Create Makefile that runs your R code, creates your figures, then compiles your report using pdflatex or something like that 
-		* http://kbroman.github.io/minimal_make/ :: Like this!
-* Encourage good coding habits
-	* There a reason software development projects use version control
-	* Would totally eliminate multiple file versions
-	* The dreaded analysis_1.2012.2.3.1415926535.R
-	* I realized I needed to do this for my tumorgraft analyses
-		* For both the power analyses and the XenoCat analyses
-		* Would love to hear feedback on these things from people who know more than me (active coding community)
+### Why we should do it
+#### Gives us the chance to do **reproducible** research
+* Physically documents project lifecycle
+	* Commit @ logical stopping points to show project development
+* Ensures accountability to clients
+	* Can create the project report/results with just code and data 
+	* No more (I swear this was significant when I got the p-value on my machine...)
+* Can follow my structure
+	* Use R to create all images and tables (TeX) directly from your data 
+	* Use LyX for a MS Word substitute for report creation
+	* Export LaTeX source from LyX file
+	* Create Makefile that runs your R code, creates your figures, then compiles your report using pdflatex or something like that 
+	* http://kbroman.github.io/minimal_make/ :: Like this!
+
+#### Encourage good coding habits
+* There a reason software development projects use version control
+* Would totally eliminate multiple file versions
+* The dreaded analysis_1.2012.2.3.1415926535.R
+* I realized I needed to do this for my tumorgraft analyses
+	* For both the power analyses and the XenoCat analyses
+	* Would love to hear feedback on these things from people who know more than me (active coding community)
 * Allows us to collaborate without pulling our hair
 	* It is really the only sane way to work on software simultaneously
 	* Could become more important as we get larger, more multi-analyst projects like HF
-* It's not hard
-	* A few simple commands and concepts are all you need
-	* Got our team of 3 coders from my former lab up and running in less than a day
-* We could make some really great graphs
-	* https://github.com/chrishunt/git-pissed
+
+#### It's not hard
+* A few simple commands and concepts are all you need
+* Got our team of 3 coders from my former lab up and running in less than a day
 * Git is a distributed version control system
 	* No need for a centralized server (like SVN)
 	* Could just keep a master repo on cluster (maybe w/ share mounted?)
@@ -61,27 +59,31 @@ Xenograft growth data files can be found in the ./data/ directory. Each treatmen
 		* Each project is a repo
 	* Could keep data in repos 
 		* This allows for audit-like tracking of an experiments data over the course of the analysis
+* We could make some really great graphs
+	* https://github.com/chrishunt/git-pissed
+
+#### It could make our project tracking easier
 * For time tracking, why not merge our timesheets and our notebooks. 
 	* Work entries would just get a special markdown flag and look like this:
 	* ##### 8/28/2013	12:00-2:48 AM	2.75	GitHub Party
 	* Parsing this is just as easy as the system we have set up right now
 		* I'll write it ;)
-	* Markdown has all the formatting options we could ever want and they are super easy to pick up
-	* You can even embed images:
-	![](CRC02_AZD8055_alone_vs_Vechicle.pdf?raw=true)
-	* Tables too!
+* Markdown has all the formatting options we could ever want and they are super easy to pick up
+* You can even embed images:  
+![](CRC02_AZD8055_alone_vs_Vechicle.pdf?raw=true)
+* Tables too!  
 | First Header  | Second Header |
 | ------------- | ------------- |
 | Row1 Cell1    | Row1 Cell2    |
 | Row2 Cell1    | Row2 Cell2    |
-	* Well, if we used [pandoc](http://johnmacfarlane.net/pandoc/) they would be there :)
+* Well, if we used [pandoc](http://johnmacfarlane.net/pandoc/) they would be there :)
 
-##### PLUS, IT GIVES US THE SHARED CODE REPOSITORY!!!
+#### Gives us the shared code repository
 * Share code with each other and everyone around VARI
 * I would just point you @ a repo you could use
 	* Then you could fork it, yo :)
 	* Allows us to identify which pieces of code we use most.
-	* Optimize these? I'm reaching here... 
+	* Optimize these? I'm reaching here...   
 ***Could also just make everything public**
 	* Use GitHub
 	* Give back to the research community
