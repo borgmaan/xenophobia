@@ -7,7 +7,7 @@
 * [Continued.](http://ivory.idyll.org/blog/research-software-reuse.html)
 
 ### Name Description
-Naming this demo 'Xenophobia' because it is about xenograft model analysis, and because we are irrationally afraid of version control systems.
+Naming this demo *Xenophobia* because it is about xenograft model analysis, and because we are irrationally afraid of version control systems.
 > [xenophobia](http://en.wikipedia.org/wiki/Xenophobia#Definitions): unreasonable fear or hatred of the unfamiliar (Webster's)
 
 ### Project Description
