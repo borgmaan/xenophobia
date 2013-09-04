@@ -111,13 +111,13 @@ Jeff was happy:
 	* Updated TeX files and R code to support conversion. 
 1. Re-ran to make sure everything worked... it did!
 2. Updated README.md for public viewing.
-3. Emailed everyone about this project.
+3. Emailed everyone about this project.  
 **Next steps: Get some slides together for presentation on Thursday.**
 
 ##### 8/28/2013	12:00-2:48 AM	2.75	GitHub Party
 0. Created GitHub repo for JM_10 project.
 1. Modified files for portability.
-2. Should probably get even fancier.
+2. Should probably get even fancier.  
 **Next steps: Get some slides together for presentation on Thursday.**
 
 ##### 8/28/2013	10:00-11:00 AM	1	Results reporting
@@ -125,7 +125,7 @@ Jeff was happy:
 1. Emailed back and forth with Anita and Dani to address their responses.
 2. Set up cloned version of project directory on the cluster that Anita would be able to access/use. If I had more time I’d make this git-enabled. 
 3. Talked to Dani about what was casing some of the comparisons to be insignificant. 
-4. Discussed with her as to what might be the best graphical representation of the data. 
+4. Discussed with her as to what might be the best graphical representation of the data.  
 **Next steps: Wait to hear if they want to you do anything else. Wait to hear from Jeff.**
 
 #####	8/27/2013	6:00-10:30 PM	Analysis of the XenoCats
@@ -137,7 +137,7 @@ Jeff was happy:
 5. Wrote R code to create summary tables with p-values. 
 6. Debugged all that written code – almost no bugs, nice!
 7. Took output and jammed it into a LyX report. 
-8. Took a look at the results and make some notes on how 
+8. Took a look at the results and make some notes on how.  
 **Next steps: Send them the results tomorrow and get their feedback.**
 
 
