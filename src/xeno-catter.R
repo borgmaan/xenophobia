@@ -178,6 +178,26 @@ for (mouse_model in models){
 
 sessionInfo()
 
+#R version 3.0.1 (2013-05-16)
+#Platform: x86_64-apple-darwin10.8.0 (64-bit)
+#
+#locale:
+#[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+#
+#attached base packages:
+#[1] grid      methods   stats     graphics  grDevices utils     datasets
+#[8] base
+#
+#other attached packages:
+#[1] xtable_1.7-1    XenoCat_1.0.3   lme4_0.999999-2 Matrix_1.0-12
+#[5] lattice_0.20-15 stringr_0.6.2   ggplot2_0.9.3.1 reshape2_1.2.2
+#
+#loaded via a namespace (and not attached):
+# [1] colorspace_1.2-2   dichromat_2.0-0    digest_0.6.3       gtable_0.1.2
+# [5] labeling_0.2       MASS_7.3-28        munsell_0.4.2      nlme_3.1-110
+# [9] plyr_1.8           proto_0.3-10       RColorBrewer_1.0-5 scales_0.2.3
+#[13] stats4_3.0.1       tools_3.0.1
+#
 # Notes on what you see:
 # > JPM09/PD0325901 alone vs Vechicle 0.024 is an example of what happens when you have enough samples. (4 by 6) and has the one control outlier
 #     > JPM09 AZD8055 + PD0325901 vs Vechicle        0.263 is where you get screwed (4 by 5)
