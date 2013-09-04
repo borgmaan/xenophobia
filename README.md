@@ -102,7 +102,7 @@ Jeff was happy:
 > This is great. I thank you for the fast turnaround and also the p-values and additional insights. Very helpful for sure. Certainly the PD alone was impressive in all but one or two models. 
 > Jeff
 
-##### 8/28/2013	8:00-11:00 PM	3	GitHub Party (2.0)
+##### 8/28/2013	20:00-24:00	4	GitHub Party (2.0)
 0. Made LyX report structure more portable by moving table and image directories into report subdir
 	* Updated TeX files and R code to support conversion. 
 1. Re-ran to make sure everything worked... it did!
@@ -110,13 +110,13 @@ Jeff was happy:
 3. Emailed everyone about this project.  
 **Next steps: Get some slides together for presentation on Thursday.**
 
-##### 8/28/2013	12:00-2:48 AM	2.75	GitHub Party
+##### 8/28/2013	24:00-2:48	2.75	GitHub Party
 0. Created GitHub repo for JM_10 project.
 1. Modified files for portability.
 2. Should probably get even fancier.  
 **Next steps: Get some slides together for presentation on Thursday.**
 
-##### 8/28/2013	10:00-11:00 AM	1	Results reporting
+##### 8/28/2013	10:00-11:00	1	Results reporting
 0. Drafted email with observations for my XenoCat analysis.
 1. Emailed back and forth with Anita and Dani to address their responses.
 2. Set up cloned version of project directory on the cluster that Anita would be able to access/use. If I had more time I’d make this git-enabled. 
@@ -124,7 +124,7 @@ Jeff was happy:
 4. Discussed with her as to what might be the best graphical representation of the data.  
 **Next steps: Wait to hear if they want to you do anything else. Wait to hear from Jeff.**
 
-#####	8/27/2013	6:00-10:30 PM	Analysis of the XenoCats
+#####	8/27/2013	18:00-22:30	4.5	Analysis of the XenoCats
 0. Got data tumor growth data from Dani.
 1. Ripped it out of Excel and put it in model X treatment specific files
 2. Wrote R code to read in data and merge it all together. 
