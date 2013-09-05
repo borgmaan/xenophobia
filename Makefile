@@ -5,11 +5,11 @@
 
 # This uses pdflatex to compile a TeX document [output from LyX] to PDF
 presentation/git_bbc_rip.pdf:presentation/git_bbc_rip.tex report/crc-tumor-analysis.pdf
-	cd presentation; pdflatex git_bbc_rip.tex; cd..
+	cd presentation; pdflatex git_bbc_rip.tex
 
 # This uses pdflatex to compile a TeX document [output from LyX] to PDF
 report/crc-tumor-analysis.pdf:report/crc-tumor-analysis.tex report/tables/JPM16.tex
-	cd report; pdflatex crc-tumor-analysis.tex; cd..
+	cd report; pdflatex crc-tumor-analysis.tex
 
 # This runs the XenoCat script that outputs a bunch of files and tables for a report.
 report/tables/JPM16.tex:src/xeno-catter.R
