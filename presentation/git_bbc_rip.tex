@@ -1,0 +1,243 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\parindent}{0bp}
+\definecolor{page_backgroundcolor}{rgb}{0, 0, 0}
+\pagecolor{page_backgroundcolor}
+\definecolor{document_fontcolor}{rgb}{1, 1, 1}
+\color{document_fontcolor}
+\usepackage{babel}
+\usepackage{float}
+\usepackage{graphicx}
+\ifx\hypersetup\undefined
+  \AtBeginDocument{%
+    \hypersetup{unicode=true}
+  }
+\else
+  \hypersetup{unicode=true}
+\fi
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{\texorpdfstring%
+  {L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+  {LyX}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ % this default might be overridden by plain title style
+ \newcommand\makebeamertitle{\frame{\maketitle}}%
+ \AtBeginDocument{
+   \let\origtableofcontents=\tableofcontents
+   \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+   \def\gobbletableofcontents#1{\origtableofcontents}
+ }
+ \long\def\lyxframe#1{\@lyxframe#1\@lyxframestop}%
+ \def\@lyxframe{\@ifnextchar<{\@@lyxframe}{\@@lyxframe<*>}}%
+ \def\@@lyxframe<#1>{\@ifnextchar[{\@@@lyxframe<#1>}{\@@@lyxframe<#1>[]}}
+ \def\@@@lyxframe<#1>[{\@ifnextchar<{\@@@@@lyxframe<#1>[}{\@@@@lyxframe<#1>[<*>][}}
+ \def\@@@@@lyxframe<#1>[#2]{\@ifnextchar[{\@@@@lyxframe<#1>[#2]}{\@@@@lyxframe<#1>[#2][]}}
+ \long\def\@@@@lyxframe<#1>[#2][#3]#4\@lyxframestop#5\lyxframeend{%
+   \frame<#1>[#2][#3]{\frametitle{#4}#5}}
+ \def\lyxframeend{} % In case there is a superfluous frame end
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usetheme{Copenhagen}
+
+\makeatother
+
+\begin{document}
+
+\title{Let's Git With It}
+
+
+\author{Andrew Borgman}
+
+
+\institute{Van Andel Research Institute}
+
+\makebeamertitle
+
+\lyxframeend{}\lyxframe{Overview}
+\begin{enumerate}
+\item Git Comfortable
+\item Journal Club Business
+
+\begin{enumerate}
+\item A few slides covering the basics
+\end{enumerate}
+\item Xenophobia Musings
+
+\begin{enumerate}
+\item What did you think?
+\item Could we do it?
+\item Would it be worth it?
+\item I think so.
+\end{enumerate}
+\end{enumerate}
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{Journal Club}
+
+\begin{center}
+\includegraphics[scale=0.16]{images/abstract-resize}
+\par\end{center}
+
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{Journal Club}
+
+\begin{center}
+\includegraphics[scale=0.16]{images/abstract-resize-combine}
+\par\end{center}
+
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{Important Themes}
+\begin{itemize}
+\item Open Science Initiatives
+
+\begin{itemize}
+\item ``Reproducibility is the hallmark of good science.''
+\item Journals requiring data and analysis code be shared
+\item Science needs to be community based to be successful
+
+\begin{itemize}
+\item How do I solve a programming problem: Stack Overflow
+\item How do I solve a bioinformatics problem: SEQanswers
+\item How do I solve a statistics problem: CrossValidated
+\end{itemize}
+\item Share your ideas and code!
+\end{itemize}
+\item Git Can Help Facilitate Open Science
+
+\begin{itemize}
+\item Enables reproducibility
+\item Provides rigorous tracking of projects
+\item GitHub provides community and great hosting
+\item BitBucket might be better (https://bitbucket.org/)
+\end{itemize}
+\end{itemize}
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{Uses Of Git In Science}
+\begin{enumerate}
+\item Lab notebook
+\item Facilitating collaboration
+\item Backup and failsafe against data loss
+\item Freedom to explore new ideas and methods
+\item Mechanism to solicit feedback and reviews
+\item Increase transparency and verifiability
+\item Managing large data
+\item Lowering barriers to reuse
+\end{enumerate}
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{Why Should We Do It?}
+\begin{itemize}
+\item Provides high level of integrity in analysis
+
+\begin{itemize}
+\item Results can always be reproduced by typing 'make'
+\item All figures and tables created directly from data
+\item Everything is tracked; no more uncertainty
+\end{itemize}
+\item Should be providing ``publication quality analysis''
+
+\begin{itemize}
+\item Our duty as a core service to VARI investigators
+\item Publications are asking for data and code; have it ready
+\end{itemize}
+\item We need more structure
+
+\begin{itemize}
+\item Current structure is OK, but it is not effective for code sharing
+\item Still can't step in a project dir and know what is going on
+\item I think Git/Make approach would help 
+\end{itemize}
+\end{itemize}
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{How Should We Do It -- Logistics}
+\begin{itemize}
+\item Up for debate
+\item Use a public hosting site?
+
+\begin{itemize}
+\item Initially thought GitHub would be best
+
+\begin{itemize}
+\item Can pay small monthly fee to have private repos 
+\end{itemize}
+\item BitBucket allows for unlimited private repos
+
+\begin{itemize}
+\item Pay for \# of users 
+\item Free for 5, \$10/mo for 10
+\item This might be the way to go for us
+\end{itemize}
+\item BitBucket example: \href{https://bitbucket.org/borgmaan/xenophobia/overview}{https://bitbucket.org/borgmaan/xenophobia/overview}
+\end{itemize}
+\item Host it ourselves?
+
+\begin{itemize}
+\item This might get too hairy
+\item Would let us store and track \textbf{all} data though
+\end{itemize}
+\end{itemize}
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{How Should We Do It -- Day-to-Day}
+\begin{itemize}
+\item Keep it simple to allow for quick integration
+\item Master standard workflow
+
+\begin{itemize}
+\item Create, add, push, pull
+\end{itemize}
+\item Only need a few commands
+
+\begin{itemize}
+\item init, add, commit, push pulll
+\end{itemize}
+\item Can follow my structure 
+
+\begin{itemize}
+\item Use R to create all images and tables (\TeX{}) directly from your
+data 
+\item Use \LyX{} for a MS Word substitute for report creation 
+\item Export \LaTeX{} source from \LyX{} file 
+\item Create Makefile that runs your R code, creates your figures, then
+compiles your report using pdflatex or something like that
+\item http://kbroman.github.io/minimal\_make/ :: Like this! 
+\end{itemize}
+\end{itemize}
+
+\lyxframeend{}
+
+
+\lyxframeend{}\lyxframe{Questions?}
+\begin{quote}%{}
+On to a demo @ \href{https://github.com/borgmaan/xenophobia}{https://github.com/borgmaan/xenophobia}!
+\end{quote}%{}
+
+\lyxframeend{}
+\end{document}
